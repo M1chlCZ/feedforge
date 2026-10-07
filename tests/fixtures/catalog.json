@@ -1,0 +1,41 @@
+{
+  "shop": {
+    "name": "Example Shop",
+    "url": "https://example.test",
+    "email": "shop@example.test"
+  },
+  "products": [
+    {
+      "id": "SKU-1",
+      "title": "Kávovar & čajník <Premium> „edice“",
+      "description": "Příliš žluťoučký kůň úpěl ďábelské ódy. \"Citace\" & <tag>.",
+      "price_minor": 12345,
+      "currency": "CZK",
+      "availability": "in_stock",
+      "url": "https://example.test/p/sku-1",
+      "image_urls": [
+        "https://example.test/img/sku-1-a.jpg",
+        "https://example.test/img/sku-1-b.jpg?x=1&y=2"
+      ],
+      "category_path": ["Domov", "Kuchyně"],
+      "ean": "8591234567890",
+      "brand": "Acme & Sons",
+      "weight_grams": 1500,
+      "params": {
+        "Barva": "červená",
+        "Materiál": "nerez"
+      }
+    },
+    {
+      "id": "SKU-2",
+      "title": "Simple Mug",
+      "description": "A plain mug.",
+      "price_minor": 999,
+      "currency": "CZK",
+      "availability": "out_of_stock",
+      "url": "https://example.test/p/sku-2",
+      "image_urls": ["https://example.test/img/sku-2.jpg"],
+      "category_path": ["Domov", "Kuchyně", "Nápoje"]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[package]
+name = "feedforge"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+license = "MIT"
+repository = "https://github.com/M1chlCZ/feedforge"
+homepage = "https://github.com/M1chlCZ/feedforge"
+description = "Streaming product feed generator for Heureka, Zbozi.cz and Google Merchant."
+keywords = ["feed", "ecommerce", "heureka", "google-merchant", "cli"]
+categories = ["command-line-utilities", "web-programming"]
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+quick-xml = "0.41"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+toml = "0.8"
